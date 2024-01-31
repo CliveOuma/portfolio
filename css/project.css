@@ -1,0 +1,132 @@
+.projects {
+  padding: 100px 0px;
+}
+.project-text {
+  padding: 10px 20px 20px 20px;
+}
+.project-info {
+padding: 10px 0;
+}
+.project-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
+.list ul li{
+  font-size: 14px;
+  color: black;
+}
+.project-box p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+  margin: 0 0 10px;
+}
+.project-btn ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 10px;
+  padding: 0;
+}
+.project-btn ul li {
+  display: inline;
+  margin-left: 100px;
+}
+.project-btn ul li a {
+  font-size: 18px;
+  color: orangered;
+  text-decoration: underline;
+  display: inline-block;
+  justify-content: center;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 6px;
+}
+  .project-box a:hover {
+    color: brown;
+  }
+  #slideContainer {
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  transform: translate(-5%, -5%);
+    
+  }
+  .sliderBtn {
+  position: absolute;
+  border: none;
+  color: black;
+  padding: 0.3rem;
+  top: calc(60% - 0.4rem - 25px);
+  z-index: 999;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  }
+  
+  #prev {
+    left: 0;
+  }
+  #next {
+    right: 0;
+  }
+  .slide {
+    display: none;
+  }
+  .show {
+    display: block;
+    animation: fadein 1s ease-in-out 0s 1 normal forwards;
+  }
+  .slide p {
+    padding: 1rem ;
+    color: black;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 600;
+  }
+img {
+  max-width: 100%;
+  border-radius: 0.4rem 0.4rem 0 0;
+  display: block;
+  margin: auto;
+}
+
+ @media(max-width: 500px) {
+  #slideContainer {
+    width: 85%;
+}
+.sliderBtn {
+  padding: 0.3rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.project-btn ul li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+.project-btn ul li a {
+  line-height: 42px;
+  padding: 0.5px;
+}
+} 
+
+
+
+
+
+
+
+
+
+
+

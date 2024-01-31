@@ -1,0 +1,71 @@
+.about {
+  padding: 100px 15px;
+}
+.tech-icon {
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+.fa-ul .li .h3{
+  color: white;
+}
+
+.text h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: white;
+}
+.text h6 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 25px;
+  color: white;
+}
+.skills-list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.fa-ul li a:hover{
+  color: brown;
+}
+.hero-pic{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid gray;
+}
+.hero-pic img{
+  height: 100%;
+  width: 100%;
+  transition: 0.5sec;
+}
+.cv-btn {
+  padding-top: 20px;
+}
+.cv-btn a {
+  font-size: 11px;
+  color: rgb(236, 241, 250);
+  background-color: orange;
+  border: 1px solid rgb(236, 241, 250);
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.cv-btn a:hover {
+  background-color: lightcoral;
+  color: #000;
+}

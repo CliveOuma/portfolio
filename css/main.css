@@ -1,0 +1,112 @@
+/*-- --------------------------------------
+----------MAIN STYLESHEET ---------------
+--------------------------------------- --*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  color: white;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 600;
+  position: relative;
+}
+.title h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.title p {
+  color: white;
+}
+
+
+.text-center {
+  text-align: center !important;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+@media(max-width: 767px) {
+  header {
+  padding: 15px;
+  position: fixed;
+  background-color: rgb(236, 241, 250);
+  border-bottom: 1px solid lightgray;
+  }
+
+  .brand-name .logo {
+    color: #01143e;
+  }
+
+  .hamburger .fa {
+    display: inline-block;
+  }
+
+  .navbar {
+  position: absolute;
+  background-color: rgb(236, 241, 250);
+  width: 100%;
+  left: 0px;
+  top: 60px;
+  padding: 15px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+  display: none;
+  }
+.navbar .show {
+  display: block;
+}
+.navbar ul li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.navbar ul li a {
+  line-height: 42px;
+  color: #01143e;
+}
+.navbar ul li a::before {
+  bottom: -3px;
+  background-color: #01143e;
+}
+.about .text {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+}
